@@ -1,5 +1,8 @@
 import turtle
 
+turtle.speed(0)
+turtle.pensize(2)
+
 #alja
 i=0
 while i<4:
@@ -9,7 +12,7 @@ while i<4:
 #haz teteje
 
 turtle.left(45)
-turtle.forward(100)
+turtle.forward(70)
 turtle.right(90)
-turtle.forward(100)
+turtle.forward(70)
 turtle.done()
