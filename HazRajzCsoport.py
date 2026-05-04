@@ -1,8 +1,14 @@
 import turtle
 
-#haz teteje
+turtle.color("red")
+turtle.speed(0)
+turtle.pensize(2)
 
-turtle.left(45)
-turtle.forward(100)
-turtle.right(90)
-turtle.forward(100)
+#alja
+i=0
+while i<4:
+    turtle.fd(100)
+    turtle.right(90)
+    i+=1
+
+turtle.done()
